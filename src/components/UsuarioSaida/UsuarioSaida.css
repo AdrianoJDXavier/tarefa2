@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    width: 50%;
+    padding: 4px;
+    background-color: bisque;
+    margin: 1%;
+  }
+  
+  /* Ao passar o mouse em cima, cria uma sombra mais forte */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 52%;
+  }
+
+  .texto{
+    font-size: medium;
+  }
+
+  .login{
+    font-size: larger;
+    font-weight: bold;
+  }
